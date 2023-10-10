@@ -2,6 +2,7 @@ import './App.css';
 import CounterOne from './components/CounterOne';
 import CounterThree from './components/CounterThree';
 import CounterTwo from './components/CounterTwo';
+import ComponentA from './components/ReducerAndContext/ComponentA';
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
 
       <h6>Counter Three</h6>
       <CounterThree />
+
+      <h6>We have counter in Component-A & Update from B, D and F. Using useReducer + useContext</h6>
+      <ComponentA />
 
 
     </div>
