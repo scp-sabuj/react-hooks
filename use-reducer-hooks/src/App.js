@@ -2,6 +2,8 @@ import './App.css';
 import CounterOne from './components/CounterOne';
 import CounterThree from './components/CounterThree';
 import CounterTwo from './components/CounterTwo';
+import DataFetchingOne from './components/DataFetchingWithuseReducer/DataFetchingOne';
+import DataFetchingTwo from './components/DataFetchingWithuseReducer/DataFetchingTwo';
 import ComponentA from './components/ReducerAndContext/ComponentA';
 
 function App() {
@@ -18,6 +20,12 @@ function App() {
 
       <h6>We have counter in Component-A & Update from B, D and F. Using useReducer + useContext</h6>
       <ComponentA />
+
+      <h6>Get Post data without useReducer( using useState & useEffect )</h6>
+      <DataFetchingOne />
+
+      <h6>Get Post data using useReducer</h6>
+      <DataFetchingTwo />
 
 
     </div>
